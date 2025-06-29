@@ -1,6 +1,5 @@
 from datetime import datetime
 
-
 def coninue_prompt():
     """
     Prompts the user to decide whether to continue or not.
@@ -51,7 +50,6 @@ def get_exp_date(message):
             return str(date_obj)
         except ValueError:
             print("❌ Invalid format. Please enter the date in YYYY-MM-DD format.")
-
 
 def print_banner():
     """

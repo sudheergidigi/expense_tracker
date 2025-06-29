@@ -1,7 +1,6 @@
 from tracker import ExpenseTracker
 from utils import *
 
-
 def display_menu():
     """
     Displays a formatted menu of options for the expense tracker application and prompts the user to select an option.
@@ -21,8 +20,6 @@ def display_menu():
     choice = input("➡️ Enter your choice from the menu [1–5]: ")
     print("-" * 40)
     return choice
-
-
 
 def menu():
     """

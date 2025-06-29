@@ -1,7 +1,6 @@
 import csv
 from utils import *
 
-
 class ExpenseTracker:
     """
     ExpenseTracker is a class for managing and tracking personal expenses against a specified budget.
@@ -65,7 +64,6 @@ class ExpenseTracker:
         self.expenses.append(expense)
         print(f"📅 Date : {date} | 🏷️ Category : {category} | 💸 Amount : ₹{amount:.2f} | 📝 Description : {description}")
         print("✅ Expense added successfully!")
-
 
     def view_expenses(self):
         """
@@ -160,7 +158,6 @@ class ExpenseTracker:
         else:
             print(f"✅  Status            : ₹{remaining:.2f} remaining")
         print("-" * 50)
-
 
     def save_to_file(self, filename="data/expenses.csv"):
         """
