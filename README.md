@@ -48,7 +48,7 @@ python main.py
 4.   Save Expenses
 5.   Exit
 ----------------------------------------
-➡️ Enter your choice from the menu [1–5]: 3
+➡️ Enter your choice from the menu [1–5]: 
 ----------------------------------------
 
 
